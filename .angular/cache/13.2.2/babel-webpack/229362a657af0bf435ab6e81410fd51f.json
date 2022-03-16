@@ -1,0 +1,1 @@
+{"ast":null,"code":"const ALPHA_NUMERIC_ONLY = /^([A-Za-z0-9])+$/;\nexport function alphaNumeric() {\n  return c => {\n    if (c.value && !c.value.match(ALPHA_NUMERIC_ONLY)) {\n      return {\n        alphaNumeric: true\n      };\n    }\n\n    return null;\n  };\n}","map":null,"metadata":{},"sourceType":"module"}

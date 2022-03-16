@@ -1,0 +1,22 @@
+$height: 60px;
+
+.main-header {
+  min-height: $height;
+}
+
+a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.main-logo-props {
+  height: $height;
+  width: calc($height * 2.3);
+
+  background-size: contain;
+}
+
+.login-panel {
+  display: flex;
+  align-content: center;
+}

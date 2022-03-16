@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function getTwoLengthNumber(number) {\n  return number >= 10 ? `${number}` : `0${number}`;\n}","map":null,"metadata":{},"sourceType":"module"}
