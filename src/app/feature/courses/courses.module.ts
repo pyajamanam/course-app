@@ -11,7 +11,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { CourseListModule } from "./course-list/course-list.module";
 
 @NgModule({
-  declarations: [CoursesComponent,CourseCardComponent, 
+  declarations: [CoursesComponent, 
     CourseAddComponent,CourseListComponent,
     CourseCardEditComponent],
   imports: [
@@ -19,7 +19,7 @@ import { CourseListModule } from "./course-list/course-list.module";
     SharedModule,
     CoursesRoutingModule,
     FormsModule,
-    ReactiveFormsModule,CourseListModule
+    ReactiveFormsModule,
   ],
   exports: [
     SharedModule,
