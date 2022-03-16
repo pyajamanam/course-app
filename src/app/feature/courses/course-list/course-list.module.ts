@@ -11,10 +11,10 @@ import { CourseCardComponent } from "../course-card/course-card.component";
     SharedModule,
     FormsModule,
     ReactiveFormsModule,
-    
+    CourseCardComponent
   ],
   exports: [
-    SharedModule,
+    SharedModule
   ],
 })
 export class CourseListModule {}

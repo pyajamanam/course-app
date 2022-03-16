@@ -20,6 +20,7 @@ import { CourseListModule } from "./course-list/course-list.module";
     CoursesRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    
   ],
   exports: [
     SharedModule,
